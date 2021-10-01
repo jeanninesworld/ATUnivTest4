@@ -6,7 +6,7 @@ using System;
 namespace ATUnivTest4
 {
     [TestClass]
-    public class UnitTest1
+    public class Lectures7and8
     {
         IWebDriver driver = new ChromeDriver(@"c:\users\Public\Downloads");
 
@@ -19,22 +19,13 @@ namespace ATUnivTest4
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void GetPageTitle()
         {
             driver.Navigate().GoToUrl(@"https://www.takemefishing.org/");
             var title = driver.Title;
             Console.WriteLine(title);                
         }
 
-        [TestMethod]
-        public void TestMethod2()
-        {
-            driver.Navigate().GoToUrl(@"https://www.takemefishing.org/");
-            driver.FindElement(By.CssSelector("#nav-learn > span > span")).Click();
-            driver.FindElement(By.XPath("/html/body/form/div[5]/div[1]/div[2]/div/div[2]/div[2]/a[1]")).Click();
-            driver.FindElement(By.ClassName("search-btn")).Click();
-            
-        }
 
         [TestCleanup]
         public void TearDown()
