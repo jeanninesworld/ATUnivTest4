@@ -81,7 +81,7 @@ namespace ATUnivTest4
             System.Threading.Thread.Sleep(3000);
 
             IWebElement oldSelectMenu = driver.FindElement(By.Id("oldSelectMenu"));
-            oldSelectMenu.SendKeys("Blue");
+            oldSelectMenu.SendKeys(Keys.ArrowDown);
             oldSelectMenu.SendKeys(Keys.Return);
             System.Threading.Thread.Sleep(3000);
 
