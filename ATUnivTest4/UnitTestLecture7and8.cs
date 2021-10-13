@@ -6,7 +6,7 @@ using System;
 namespace ATUnivTest4
 {
     [TestClass]
-    public class Lectures7and8
+    public class Lecture07and08
     {
         IWebDriver driver = new ChromeDriver(@"c:\users\Public\Downloads");
 
