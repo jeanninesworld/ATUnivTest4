@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31710.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATUnivTest4", "ATUnivTest4\ATUnivTest4.csproj", "{1BED6415-BD7D-4FAC-9C44-6D7DEC373D3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATLectures7-13", "ATUnivTest4\ATLectures7-13.csproj", "{1BED6415-BD7D-4FAC-9C44-6D7DEC373D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelizationTests", "ParallelizationTests\ParallelizationTests.csproj", "{5BC03F06-F986-4D6F-AC80-23839EE65CB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1BED6415-BD7D-4FAC-9C44-6D7DEC373D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BED6415-BD7D-4FAC-9C44-6D7DEC373D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BED6415-BD7D-4FAC-9C44-6D7DEC373D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC03F06-F986-4D6F-AC80-23839EE65CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC03F06-F986-4D6F-AC80-23839EE65CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC03F06-F986-4D6F-AC80-23839EE65CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC03F06-F986-4D6F-AC80-23839EE65CB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
